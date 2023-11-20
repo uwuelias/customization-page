@@ -1,0 +1,92 @@
+.black,
+.blue,
+.blue,
+.mint,
+.pink,
+.purple,
+.white,
+.yellow {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.black {
+    background-color: #393939;
+  }
+  
+  .blue {
+    background-color: #577f99;
+  }
+  
+  .mint {
+    background-color: #c9f7f4;
+  }
+  
+  .pink {
+    background-color: #fbdfeb;
+  }
+  
+  .purple {
+    background-color: #a5a0f3;
+  }
+  
+  .white {
+    background-color: #f3f3f1;
+  }
+  
+  .yellow {
+    background-color: #fee4a5;
+  }
+
+  #default {
+    width: 500px;
+  }
+  
+
+ * {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  .buy {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    margin-bottom: 40px;
+  }
+  
+  .buy:hover {
+    background-color: #2980b9;
+  }
+
+  .overlay {
+    outline: dotted black;
+    width: 220px;
+    height: 270px;
+    position: relative;
+    top: -300px;
+    right: -840px;
+  }
+
+  .buttons-container {
+    margin-top: -250px;
+  }
